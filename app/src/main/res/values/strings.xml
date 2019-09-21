@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">RomansVocabulary</string>
+    <string name="add_folder">Add folder</string>
+    <string name="action_export">Export</string>
+    <string name="action_import">Import</string>
+    <string name="folder_name">Folder name</string>
+    <string name="submit">Submit</string>
+    <string name="error">Error</string>
+    <string name="add_word">Add new word</string>
+    <string name="i_dont_know">Words what you do not know</string>
+    <string name="show_all">Show list of all words</string>
+    <string name="training">Training</string>
+    <string name="folder_deleted">Folder has been deleted</string>
+    <string name="folder_not_deleted">Folder has not been deleted!</string>
+    <string name="word_deleted">Word has been deleted</string>
+    <string name="word_not_deleted">Word has not been deleted!</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="edit_word">Edit</string>
+    <string name="lang1">Native language</string>
+    <string name="lang2">Foreign language</string>
+    <string name="pronunciation">Pronuncitation</string>
+    <string name="others">The others information</string>
+    <string name="word_saved">Word has been saved</string>
+    <string name="folder_saved">Folder has been saved</string>
+    <string name="title_activity_show_words_in_folder">ShowWordsInFolderActivity</string>
+    <string name="random">Random</string>
+    <string name="no_more_words">No more words!</string>
+    <string name="next_word">Next word</string>
+    <string name="show_word">Show word</string>
+    <string name="add_to_dont_know_list">Add to list</string>
+    <string name="added_to_dont_know_list">Added to special list</string>
+    <string name="already_exists_in_dont_know_list">This word is already in special list</string>
+    <string name="remove_from_dont_know_list">Remove</string>
+    <string name="removed_from_dont_know_list">Removed from special list</string>
+    <string name="already_is_not_in_dont_know_list">This word is not in special list</string>
+    <string name="no_words">You do not have any words in this folder</string>
+
+    <string name="field">Textfield</string>
+    <string name="cannot_be_empty">cannot be empty!</string>
+
+    <string name="arrow">></string>
+    <string name="exportXml">Export from XML</string>
+    <string name="importXml">Import from XML</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment"></string>
+    <string name="export">Export</string>
+    <string name="import_name">Import</string>
+    <string name="open">Open</string>
+    <string name="read_file_need_permission">Cannot read file because application need read permission</string>
+    <string name="filename">Filename in vocabulary folder</string>
+    <string name="selectNone">Select none</string>
+    <string name="selectAll">Select all</string>
+
+    <string name="fileNotFound">File not found</string>
+    <string name="ioException">Error during reading/writing file</string>
+    <string name="exported">Exported into </string>
+    <string name="notWritable">Storage is not writable</string>
+    <string name="fileFolderNotExists">Exported into </string>
+    <string name="importSuccessful">Import successful</string>
+</resources>

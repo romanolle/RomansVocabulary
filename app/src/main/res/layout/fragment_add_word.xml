@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView android:text="@string/add_word"
+        android:id="@+id/add_word"
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal"
+        style="@style/Header"
+        android:layout_height="wrap_content"/>
+
+    <EditText android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/folder"
+        android:lines="1"
+        android:enabled="false"
+        android:inputType="text"/>
+
+    <EditText android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lang1"
+        android:lines="1"
+        android:hint="@string/lang1"
+        android:inputType="text"/>
+
+    <EditText android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lang2"
+        android:lines="1"
+        android:hint="@string/lang2"
+        android:inputType="text"/>
+
+    <EditText android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pronunciation"
+        android:lines="1"
+        android:hint="@string/pronunciation"
+        android:inputType="text"/>
+
+    <EditText android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/others"
+        android:lines="1"
+        android:hint="@string/others"
+        android:inputType="text"/>
+    
+    <Button android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/submit"
+        android:gravity="center_horizontal"/>
+</LinearLayout>
